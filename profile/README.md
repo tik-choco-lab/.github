@@ -35,6 +35,8 @@
 - WebRTCを導入し、P2Pでのリアルタイム通信を実現
   - 複雑性を下げるために、MistNetを開発
 - IPFSを導入したコンテンツ管理を実現
+- QRコードをスキャンしてワールドやコンテンツをやり取りできる
+- IoTとも接続が可能であり、空間内から操作したりデータの取得ができる
 - ICCE-Taiwan 2023で発表 https://doi.org/10.1109/ICCE-Taiwan58799.2023.10226934
 ## 2024年 2月 MistNet
 - https://github.com/DecentralizedMetaverse/mistnet
