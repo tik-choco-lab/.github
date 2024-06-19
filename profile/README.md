@@ -8,36 +8,6 @@
 また、多くのメタバースプラットフォームが乱立する現状において、
 統一的なプロトコルの確立を通じて相互運用性を促進する。
 
-## miniverse
-- https://github.com/DecentralizedMetaverse/miniverse
-- 大学のオープンキャンパスで使用することを想定して作成したメタバース
-- クライアントサーバー型であるが、だれでもサーバーを立てて実行できることから、ある種の分散型メタバースともいえるのでは？
-- ワールド内のObject等は手打ちで指定する　アバターはVRMが使用できる
-## location-sync
-- https://github.com/DecentralizedMetaverse/location-sync
-- ピュア型P2Pで仮想空間内のユーザー座標に基づいて、接続先を最適化するアルゴリズムの開発を行った。
-- P2Pでの座標同期のシミュレーションプログラムである
-## decentralized-metaverse-unity
-- https://github.com/DecentralizedMetaverse/decentralized-metaverse-unity
-- miniverseをベースとして分散型に改造することを目指していたたProjectだが、一から作り直した方が早いと考え、途中でfogverseとして作ることにした
-## fogverse
-- https://github.com/DecentralizedMetaverse/fogverse
-- WebRTCを導入し、P2Pでのリアルタイム通信を実現
-  - 複雑性を下げるために、MistNetを開発
-- IPFSを導入したコンテンツ管理を実現
-## MistNet
-- https://github.com/DecentralizedMetaverse/mistnet
-- fogverseにあったリアルタイム通信を分離させ、より広範囲のプロジェクトで適用可能にした。
-- WebRTCを導入し、接続先最適化アルゴリズムを新たに導入している
-## wuyu-protocol
-- https://github.com/DecentralizedMetaverse/wuyu-protocol
-- fogverseにあったコンテンツ管理を分離することを当初目指していたが、後々、相互運用性を向上させることの重要性に気づき開発を中断
-## mistlib
-- https://github.com/DecentralizedMetaverse/mistlib
-- 相互運用性を向上させることを目的として、Unityからの脱却を行った
-- メタバースにおける、リアルタイム通信とコンテンツ管理を提供する
-- 現在、コンテンツ管理が70%ぐらいできている状態
-
 # 分散型元宇宙项目
 本项目的目的是确立元宇宙所需的协议，并通过提高互操作性来实现这一目标。
 
@@ -45,3 +15,36 @@
 
 用户在使用系统时无需意识到后台运行的P2P技术，系统将自动进行优化，提供最佳体验。
 同时，在目前众多元宇宙平台并存的情况下，我们也致力于通过确立统一的协议来促进互操作性。
+
+# 歴史
+## 2022年 5月 miniverse
+- https://github.com/DecentralizedMetaverse/miniverse
+- 大学のオープンキャンパスで使用することを想定して作成したメタバース
+- クライアントサーバー型であるが、だれでもサーバーを立てて実行できることから、ある種の分散型メタバースともいえるのでは？
+- ワールド内のObject等は手打ちで指定する　アバターはVRMが使用できる
+## 2022年 10月 location-sync
+- https://github.com/DecentralizedMetaverse/location-sync
+- ピュア型P2Pで仮想空間内のユーザー座標に基づいて、接続先を最適化するアルゴリズムの開発を行った。
+- P2Pでの座標同期のシミュレーションプログラムである
+- バーチャル学会で発表 https://doi.org/10.57460/vconf.2022.0_101
+## 2022年 11月 decentralized-metaverse-unity
+- https://github.com/DecentralizedMetaverse/decentralized-metaverse-unity
+- miniverseをベースとして分散型に改造することを目指していたたProjectだが、一から作り直した方が早いと考え、途中でfogverseとして作ることにした
+## 2023年 1月 fogverse
+- https://github.com/DecentralizedMetaverse/fogverse
+- WebRTCを導入し、P2Pでのリアルタイム通信を実現
+  - 複雑性を下げるために、MistNetを開発
+- IPFSを導入したコンテンツ管理を実現
+- ICCE-Taiwan 2023で発表 https://doi.org/10.1109/ICCE-Taiwan58799.2023.10226934
+## 2024年 2月 MistNet
+- https://github.com/DecentralizedMetaverse/mistnet
+- fogverseにあったリアルタイム通信を分離させ、より広範囲のプロジェクトで適用可能にした。
+- WebRTCを導入し、接続先最適化アルゴリズムを新たに導入している
+## 2024年 6月 wuyu-protocol
+- https://github.com/DecentralizedMetaverse/wuyu-protocol
+- fogverseにあったコンテンツ管理を分離することを当初目指していたが、後々、相互運用性を向上させることの重要性に気づき開発を中断
+## 2024年 6月 mistlib ←今ここ
+- https://github.com/DecentralizedMetaverse/mistlib
+- 相互運用性を向上させることを目的として、Unityからの脱却を行った
+- メタバースにおける、リアルタイム通信とコンテンツ管理を提供する
+- 現在、コンテンツ管理が70%ぐらいできている状態
