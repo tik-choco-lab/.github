@@ -65,7 +65,7 @@ Exchange routing tables and user location with other nodes
 
 ![image](https://github.com/user-attachments/assets/38252722-adfa-4156-a11f-59b05c2c3dbc)
 
-## Secure P2P Authenticationwith Public Key Cryptography
+## Secure P2P Authentication with Public Key Cryptography
 
 - A user's public key also represents their user ID
 - A message signed with a private key can be verified by the recipient using the public key, ensuring the identity of the sender
