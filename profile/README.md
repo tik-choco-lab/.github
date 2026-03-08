@@ -121,5 +121,4 @@ Exchange routing tables and user location with other nodes
 ## 2024年 6月 mistlib ←今ここ
 - https://github.com/tik-choco-lab/mistlib
 - 相互運用性を向上させることを目的として、Unityからの脱却を行った
-- メタバースにおける、リアルタイム通信とコンテンツ管理を提供する
-- 現在、コンテンツ管理が70%ぐらいできている状態
+- サーバー不要でのリアルタイム通信とコンテンツ管理を提供する
