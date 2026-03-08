@@ -81,21 +81,21 @@ Exchange routing tables and user location with other nodes
 
 # 歴史 History
 ## 2022年 5月 miniverse
-- https://github.com/DecentralizedMetaverse/miniverse
+- https://github.com/tik-choco-lab/miniverse
 - 大学のオープンキャンパスで使用することを想定して作成したメタバース
 - クライアントサーバー型であるが、だれでもサーバーを立てて実行できることから、ある種の分散型メタバースともいえるのでは？
 - ワールド内のObject等は手打ちで指定する　アバターはVRMが使用できる
 ## 2022年 10月 location-sync
-- https://github.com/DecentralizedMetaverse/location-sync
+- https://github.com/tik-choco-lab/location-sync
 - ピュア型P2Pで仮想空間内のユーザー座標に基づいて、接続先を最適化するアルゴリズムの開発を行った。
 - P2Pでの座標同期のシミュレーションプログラムである
 - バーチャル学会で発表 https://doi.org/10.57460/vconf.2022.0_101
 ## 2022年 11月 decentralized-metaverse-unity
-- https://github.com/DecentralizedMetaverse/decentralized-metaverse-unity
+- https://github.com/tik-choco-lab/decentralized-metaverse-unity
 - miniverseをベースとして分散型に改造することを目指していたたProjectだが、一から作り直した方が早いと考え、途中でfogverseとして作ることにした
 ## 2023年 1月 fogverse
 
-- https://github.com/DecentralizedMetaverse/fogverse
+- https://github.com/tik-choco-lab/fogverse
 - WebRTCを導入し、P2Pでのリアルタイム通信を実現
   - 複雑性を下げるために、MistNetを開発
 - IPFSを導入したコンテンツ管理を実現
@@ -107,7 +107,7 @@ Exchange routing tables and user location with other nodes
 
 
 ## 2024年 2月 MistNet
-- https://github.com/DecentralizedMetaverse/mistnet
+- https://github.com/tik-choco-lab/mistnet
 - Network library for the Metaverse and other network applications
 - Focus on real-time communication
 - Operates in a peer-to-peer (p2p) manner
@@ -115,11 +115,11 @@ Exchange routing tables and user location with other nodes
 - WebRTCを導入し、接続先最適化アルゴリズムを新たに導入している
 
 ## 2024年 6月 wuyu-protocol
-- https://github.com/DecentralizedMetaverse/wuyu-protocol
+- https://github.com/tik-choco-lab/wuyu-protocol
 - fogverseにあったコンテンツ管理を分離することを当初目指していたが、後々、相互運用性を向上させることの重要性に気づき開発を中断
 
 ## 2024年 6月 mistlib ←今ここ
-- https://github.com/DecentralizedMetaverse/mistlib
+- https://github.com/tik-choco-lab/mistlib
 - 相互運用性を向上させることを目的として、Unityからの脱却を行った
 - メタバースにおける、リアルタイム通信とコンテンツ管理を提供する
 - 現在、コンテンツ管理が70%ぐらいできている状態
